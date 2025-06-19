@@ -1,0 +1,40 @@
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Comment section design with localstorage</title>
+      </head>
+      <body>
+        
+
+        <div class="container">
+          <h1>Post a comment </h1>
+          <di class="head"><span id="comment-count"></span> comment</di>
+          <p>we are happy to hear from you</p>
+          <div class="comments"></div>
+          <div class="commentbox">
+            <img src="" alt="">
+            <div class="comment">
+              <h2>Comment as:</h2>
+              <input type="text"  placeholder="Anonymous" class="anonymous-input">
+              <div class="comment-input">
+                <input type="text" placeholder="enter comment" class="usercomment"/>
+                <div class="btn">
+                  <button type="submit" disabled id="publish">publish</button>
+                  <div class="notification">
+                    <input type="checkbox" id="notifyInput"/>Notify me
+                  </div>
+                </div>
+              </div>
+              <p>This site is protected by reCaptcha and google 
+                <a href="#"> privacy policy</a>and 
+                <a href="#">Terms of services </a>apply
+              </p>
+            </div>
+          </div>
+        </div>
+        <script src="index.js"></script>
+      </body>
+      </html>
